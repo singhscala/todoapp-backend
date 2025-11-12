@@ -32,6 +32,8 @@ It provides RESTful APIs to create, read, update, and delete (CRUD) tasks.
 git clone https://github.com/singhscala/todoapp-backend.git
 cd todoapp-backend
 
+---
+
 **### 2️⃣ Run DynamoDB Local**
 
 Download **DynamoDB Local** from the official AWS documentation:  
@@ -46,6 +48,8 @@ java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
 DynamoDB Local will start on
 📍 http://localhost:8000
 
+---
+
 **### 3️⃣ Configure application.properties**
 
 Make sure your src/main/resources/application.properties looks like this:
@@ -57,11 +61,15 @@ aws.accessKey=dummy
 aws.secretKey=dummy
 server.port=8080
 
+---
+
 **### 4️⃣ Run the Spring Boot app**
 ```bash
 mvn spring-boot:run
 
 Now your backend runs on 👉 http://localhost:8080
+
+---
 
 **### 🔗 API Endpoints**
 Method	     Endpoint	         Description
@@ -70,6 +78,8 @@ GET	         /api/tasks/{id}	 Get task by ID
 POST         /api/tasks	       Create a new task
 PUT	         /api/tasks/{id}	 Update an existing task
 DELETE	     /api/tasks/{id}	 Delete a task
+
+---
 
 **### 👩‍💻 Author**
 
