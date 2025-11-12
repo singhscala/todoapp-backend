@@ -45,7 +45,7 @@ java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb```
 ✅ DynamoDB Local will start on:
 📍 http://localhost:8000
 
-**### 3️⃣ Configure application.properties**
+*### 3️⃣ Configure application.properties*
 Make sure your src/main/resources/application.properties looks like this:
 
 ```properties
@@ -56,7 +56,7 @@ aws.accessKey=dummy
 aws.secretKey=dummy
 server.port=8080```
 
-**### 4️⃣ Run the Spring Boot App**
+*### 4️⃣ Run the Spring Boot App*
 ```bash
 mvn spring-boot:run```
 ✅ Now your backend runs on 👉 http://localhost:8080
